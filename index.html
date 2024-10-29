@@ -26,6 +26,7 @@
                 clifford: '#da373d',
                 'primary-color': '#6a9739 ',
                 'h-color': '#111111 ',
+                'hero-shadow': '#f8f6f3 ',
               },
 
               fontFamily:{
@@ -35,6 +36,7 @@
               backgroundImage:{
                 leaf:"url('./images/leaf01.png')",
                 call_to_action:"url('./images/call.png')"
+               
             
               }
             }
@@ -47,9 +49,9 @@
     <!-- nav section -->
     <section class="w-11/12 mx-auto px-4 lg:px-8">
         <div class="navbar bg-base-100 ">
-            <div class="navbar-start">
+            <div class="navbar-start ">
               
-              <a class="w-2/5">
+              <a class="w-2/6">
                 <img src="./images/logo.svg" class="w-full" alt="">
               </a>
             </div>
@@ -90,7 +92,7 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2  shadow">
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 -left-7 shadow">
                       
                         <li><a class="text-h-color text-base font-semibold hover:text-primary-color" >Home</a></li>
                         <li><a class="text-h-color text-base font-semibold hover:text-primary-color">Everything</a></li>
@@ -103,6 +105,36 @@
             </div>
           </div>
     </section>
+
+    <!-- hero section -->
+     <div class=" w-full bg-leaf bg-no-repeat bg-right-bottom   p-15  ">
+        <div class="h-full w-full bg-hero-shadow opacity-90">
+            <div class="w-3/4 mx-auto  py-28 ">
+                <div class="hero pt-20 ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img
+                        src="./images/bannerbg.png"
+                        class=" rounded-lg " />
+                      <div>
+                        <div class=" w-16 rotate-[-30deg]">
+                            <img src="./images/leaf01.png" alt="">
+                        </div>
+                        <small class="text-h-color font-semibold ">Best Quality Product</small>
+                        <h1 class="text-5xl font-semibold mt-5">Join The Organic <br>Movement!</h1>
+                        <p class="py-6">
+                          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                          quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="btn flex justify-center items-center bg-primary-color text-white gap-3"> 
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h4>Shop Now</h4>
+                            </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+     </div>
     </header>
 
     <main></main>
